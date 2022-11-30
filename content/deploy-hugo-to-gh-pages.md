@@ -14,5 +14,6 @@ Today I learned how to share my hugo site with the internet using the free hosti
 
     *Note: if git is complaining about submodule already existing, remove it and re-add themes/lugo. `git rm --cached themes/lugo`*
 
-5. Setup a github action to trigger on pushes to master branch.
-6. Specify site url in config.toml: `baseURL = 'https://bsheps.com/til'`
+5. On the github website for the repo, select settings > Pages. In source dropdown, select github actions and work through the prompt.
+6. Commit the created hugo.yml github action file.
+7. Voila! The site should be public to the world.
