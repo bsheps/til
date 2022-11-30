@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/creatingahugosite/</loc>
+    <loc>https://bsheps.github.io/til/creatingahugosite/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/hugo/</loc>
+    <loc>https://bsheps.github.io/til/tags/hugo/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://bsheps.github.io/til/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://bsheps.github.io/til/tags/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/til/</loc>
+    <loc>https://bsheps.github.io/til/tags/til/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://bsheps.github.io/til/categories/</loc>
   </url>
 </urlset>
