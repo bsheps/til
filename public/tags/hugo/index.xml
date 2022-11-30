@@ -1,21 +1,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>My New Hugo Site</title>
-	<link>https://bsheps.github.io/til/tags/hugo/</link>
+	<link>https://bsheps.com/til/tags/hugo/</link>
 	<description>Recent content in hugo on My New Hugo Site</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 29 Nov 2022 22:19:37 -0600</lastBuildDate>
     
-        <atom:link href="https://bsheps.github.io/til/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://bsheps.com/til/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
+		<title>Deploy Hugo to Gh Pages</title>
+		<link>https://bsheps.com/til/deploy-hugo-to-gh-pages/</link>
+		<pubDate>Tue, 29 Nov 2022 22:19:37 -0600</pubDate>
+		
+		<guid>https://bsheps.com/til/deploy-hugo-to-gh-pages/</guid>
+		<description>&lt;p&gt;Today I learned how to share my hugo site with the internet using the free hosting provided by github (aka github pages). It wasn&amp;rsquo;t the most intuitive process, but I got it setup after a little effort and googling.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The first step was to setup git in the project using &lt;code&gt;git init&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Commit and push code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fork the theme.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add theme as a submodule &lt;code&gt;git submodule add https://github.com/bsheps/lugo.git themes/lugo&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: if git is complaining about submodule already existing, remove it and re-add themes/lugo. &lt;code&gt;git rm --cached themes/lugo&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Setup a github action to trigger on pushes to master branch.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Specify site url in config.toml: &lt;code&gt;baseURL = &#39;https://bsheps.com/til&#39;&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Creating a Hugo blog</title>
-		<link>https://bsheps.github.io/til/creatingahugosite/</link>
+		<link>https://bsheps.com/til/creatingahugosite/</link>
 		<pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
 		
-		<guid>https://bsheps.github.io/til/creatingahugosite/</guid>
+		<guid>https://bsheps.com/til/creatingahugosite/</guid>
 		<description>&lt;p&gt;Today I learned how to create a blog using Hugo and &lt;strong&gt;it was easy&lt;/strong&gt;. Here are the simple steps I used:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
