@@ -1,4 +1,4 @@
 baseURL = 'https://bsheps.com/til'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Today I Learned'
 theme = 'lugo'
