@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bsheps.com/til/on-wrapping-third-party-libraries/</loc>
+    <lastmod>2022-12-02T09:20:48-06:00</lastmod>
+  </url><url>
     <loc>https://bsheps.com/til/deploy-hugo-to-gh-pages/</loc>
     <lastmod>2022-11-29T22:19:37-06:00</lastmod>
   </url><url>
@@ -14,13 +17,13 @@
     <loc>https://bsheps.com/til/tags/hugo/</loc>
     <lastmod>2022-11-29T22:19:37-06:00</lastmod>
   </url><url>
-    <loc>https://bsheps.com/til/</loc>
-    <lastmod>2022-11-29T22:19:37-06:00</lastmod>
-  </url><url>
     <loc>https://bsheps.com/til/tags/</loc>
     <lastmod>2022-11-29T22:19:37-06:00</lastmod>
   </url><url>
     <loc>https://bsheps.com/til/tags/til/</loc>
+    <lastmod>2022-11-29T22:19:37-06:00</lastmod>
+  </url><url>
+    <loc>https://bsheps.com/til/</loc>
     <lastmod>2022-11-29T22:19:37-06:00</lastmod>
   </url><url>
     <loc>https://bsheps.com/til/creatingahugosite/</loc>
