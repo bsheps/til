@@ -1,7 +1,7 @@
 ---
 title: "Arrays: Two Pointer"
 date: 2022-12-08T06:45:24-06:00
-draft: true
+draft: false
 ---
 
 Today I learned about the two pointer technique for solving interesting array problems. The pointers can move in the same direction, opposite directions or a fixed width:
