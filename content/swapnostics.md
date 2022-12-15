@@ -2,9 +2,10 @@
 title: "Swapnostics"
 date: 2022-12-14T20:31:24-06:00
 draft: false
+tags: ['cars', 'repairs', 'troubleshooting']
 ---
 
-Recently our older high mileage (270k mi+) sedan started to stutter when pressing the gas pedal. The engine rpm's were fluctuating between 350 and 900 every few seconds. Shortly thereafter, the (in)famous check engine light showed on the dashboard. Using my OBDII (onboard diagnostics version 2) code reader tool, I found the error code was:
+Recently our older high mileage (270k mi+) sedan started to stutter when pressing the gas pedal. The engine rpm's were fluctuating between 350 and 900 every few seconds. Shortly thereafter, the (in)famous check engine light showed on the dashboard. Using an [error code reader tool][3], I found the error code was:
 
 > P0302 – cylinder 2 misfire detected
 
@@ -28,3 +29,4 @@ Lesson learned: if you have a suspected bad component and an identical known wor
 
 [1]: https://help.summitracing.com/app/answers/detail/a_id/5094/~/how-does-an-ignition-coil-work "How does an ignition coil work?"
 [2]: https://en.wikipedia.org/wiki/Induction_coil "Induction coil on wikipedia"
+[3]: https://en.wikipedia.org/wiki/On-board_diagnostics "OBD-II"

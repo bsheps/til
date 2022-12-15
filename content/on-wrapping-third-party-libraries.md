@@ -2,6 +2,7 @@
 title: "On Wrapping Third Party Libraries"
 date: 2022-12-02T09:20:48-06:00
 draft: false
+tags: ['software', 'software engineering', 'maintenance']
 ---
 
 I recently came across a few scenarios where wrapping third party libraries would have likely saved considerable time and prevented a production bug. 
