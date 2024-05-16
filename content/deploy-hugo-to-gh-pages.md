@@ -13,7 +13,9 @@ Today I learned how to share my hugo site with the internet using the free hosti
 4. Replace old lugo theme and clone the forked theme repo.
 5. Add theme as a submodule `git submodule add https://github.com/bsheps/lugo.git themes/lugo`
 
-   _Note: if git is complaining about submodule already existing, remove it and re-add themes/lugo. `git rm --cached themes/lugo`_
+   _Note 1: if git is complaining about submodule already existing, remove it and re-add themes/lugo. `git rm --cached themes/lugo`_
+
+   _Note 2: if [cloning the project](https://git-scm.com/book/en/v2/Git-Tools-Submodules#_cloning_submodules) for first time after awhile, run `git submodule init` to initialize and `git submodule update` to fetch the data._
 
 6. In config.toml set theme `theme = 'lugo'`
 7. On the github website for the repo, select settings > Pages. In source dropdown, select github actions and work through the prompt.
